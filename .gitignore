@@ -1,0 +1,20 @@
+cat << 'EOF' > .gitignore
+# Ignore virtual environments & system hidden files
+.venv/
+venv/
+.vscode/
+.DS_Store
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Keep test output files and media private on laptop
+*.urdf
+*.mp4
+
+# Keep coursework documents/reports private on laptop
+*.pdf
+*.docx
+*.doc
+EOF
