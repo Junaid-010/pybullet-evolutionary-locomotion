@@ -36,9 +36,8 @@ A simple distance-from-start metric often caused creatures to exploit local mini
 
 
 $$
-\text{Fitness} = \max(\Delta y, 0) \times 3.5 + \max(\Delta z, 0) \times 4.0 + (\text{dist}_{\text{start\_center}} - \text{dist}_{\text{end\_center}}) \times 2.5 + \text{total\_dist} \times 0.4
+\text{Fitness} = \max(\Delta y, 0) \times 3.5 + \max(\Delta z, 0) \times 4.0 + (\text{dist}_{\text{start-center}} - \text{dist}_{\text{end-center}}) \times 2.5 + \text{total-dist} \times 0.4
 $$
-
 
 ---
 
